@@ -1,0 +1,12 @@
+ReadAll();
+  		if(USRight<=13 || USLeft<=13){
+  			while(USRight<=13 || USLeft<=13){
+  				ReadAll();
+  				analogWrite(motorE, 150);
+  				analogWrite(motorD, 150);
+  			}
+  		} else {
+  			analogWrite(motorE, 150);
+        analogWrite(motorD, 150);
+        delay(200);
+  		}

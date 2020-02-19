@@ -1,0 +1,123 @@
+void CalculateWallCase(){
+  ReadCompass();
+  if(CompassSimplified==1){
+    if((USLeft<=20 || gamefloor[currentfloor][PositionX][PositionY-1]==16) && USRight>20){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=4;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=13;
+      	}
+      }
+    } else if(USLeft>20 && (USRight<=20 || gamefloor[currentfloor][PositionX][PositionY+1]==16)){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=3;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=11;
+      	}
+      }
+    } else if((USLeft<=20 || gamefloor[currentfloor][PositionX][PositionY-1]==16) && (USRight<=20 || gamefloor[currentfloor][PositionX][PositionY+1]==16)){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=6;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=21;
+      	}
+      }
+    }
+  }
+  if(CompassSimplified==2){
+    if((USLeft<=20 || gamefloor[currentfloor][PositionX][PositionY+1]==16) && USRight>20){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=3;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=12;
+      	}
+      }
+    } else if(USLeft>20 && (USRight<=20 || gamefloor[currentfloor][PositionX][PositionY-1]==16)){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=4;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+     	 	gamefloor[currentfloor][PositionX][PositionY]=14;
+      	}
+      }
+    } else if((USLeft<=20 || gamefloor[currentfloor][PositionX][PositionY+1]==16) && (USRight<=20 || gamefloor[currentfloor][PositionX][PositionY-1]==16)){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=6;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=22;
+      	}
+      }
+    }
+  }
+  if(CompassSimplified==3){
+    if((USLeft<=20 || gamefloor[currentfloor][PositionX-1][PositionY]==16) && USRight>20){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=1;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=11;
+      	}
+      }
+    } else if(USLeft>20 && (USRight<=20 || gamefloor[currentfloor][PositionX+1][PositionY]==16)){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=2;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=12;
+      	}
+      }
+    } else if((USLeft<=15 || gamefloor[currentfloor][PositionX-1][PositionY]==16) && (USRight<=20 || gamefloor[currentfloor][PositionX+1][PositionY]==16)){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=5;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=23;
+      	}
+      }
+    }
+  }
+  if(CompassSimplified==4){
+    if((USLeft<=20 || gamefloor[currentfloor][PositionX+1][PositionY]==16) && USRight>20){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=2;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=14;
+      	}
+      }
+    } else if(USLeft>20 && (USRight<=20 || gamefloor[currentfloor][PositionX-1][PositionY]==16)){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=1;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=13;
+      	}
+      }
+    } else if((USLeft<=20 || gamefloor[currentfloor][PositionX+1][PositionY]==16) && (USRight<=20 || gamefloor[currentfloor][PositionX-1][PositionY]==16)){
+      if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      	gamefloor[currentfloor][PositionX][PositionY]=5;
+      }
+      if(USFront<=20){
+        if(gamefloor[currentfloor][PositionX][PositionY]==0){
+      		gamefloor[currentfloor][PositionX][PositionY]=24;
+      	}
+      }
+    }
+  }
+}
