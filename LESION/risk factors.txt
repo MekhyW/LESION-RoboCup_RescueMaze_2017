@@ -1,0 +1,6 @@
+- deploy kit functionality
+- value conversions
+- motors control
+- define pins
+- distance between center and sensors
+- number of victims
