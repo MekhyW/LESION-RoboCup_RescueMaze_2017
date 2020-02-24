@@ -1,7 +1,7 @@
 # LESION - RoboCup Rescue Maze 2017
 ###### First attempt at developing a physical autonomous maze robot to compete at LARC 2017 in Curitiba, Brazil. Despite the limited deadline and mechanical knowledge at the time, it was an unforgettable learning experience.
 
-<img src="photo_2020-02-19_16-00-52.png" alt="LESION" style="zoom:10%;" />
+<img src="photo_2020-02-19_16-00-52.png" alt="LESION" style="zoom:30%;" />
 
 ## Repository Contents
 
