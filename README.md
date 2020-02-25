@@ -3,6 +3,12 @@
 
 <img src="photo_2020-02-19_16-00-52.png" alt="LESION" style="zoom:30%;" />
 
+## Rescue Maze Preface
+
+" The robot needs to search through a maze for victims. The robot should not find the fastest path through the maze, instead it should explore as much of the maze as possible . The robot will get points for each victim found and will deliver a rescue kit close to the victim. The robot must avoid areas with a black floor.
+
+Rescue Maze sub-league open to students from age 13 up to and including 19 years of age (age as of 1st of July).Team members may compete in Rescue Line twice (2 international events). After competing in Rescue Line twice, they must move to Rescue Maze. "
+
 ## Repository Contents
 
 | Folder                      | Content                                                      | Key File    |
