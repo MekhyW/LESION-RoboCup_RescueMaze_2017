@@ -32,7 +32,7 @@ Rescue Maze sub-league open to students from age 13 up to and including 19 years
 
 ## Team Description Paper
 
-The development of Cypher, in partial collaboration with Santa Bartolomea Capitanio School (from Macapá. Brasil) is described in the following TDP (written in brazillian Portuguese) with useful links: 
+The development of Lesion, in partial collaboration with Santa Bartolomea Capitanio School (from Macapá. Brasil) is described in the following TDP (written in brazillian Portuguese) with useful links: 
 
 http://sistemaolimpo.org/midias/uploads/85ae23003a1def3842ece655af41f87c.pdf
 
