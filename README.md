@@ -43,7 +43,6 @@ http://sistemaolimpo.org/midias/uploads/85ae23003a1def3842ece655af41f87c.pdf
 
 * Email: felipe_catapano@yahoo.com.br
 * [Telegram Contact 🔵](https://t.me/mekhyw)
-* [YouTube Channel 🔴](https://www.youtube.com/channel/UC3__YPhMGjytXUqRUmriQ8A?view_as=subscriber)
 * [Twitter Page 🐦](https://twitter.com/MekhyW)
 
 
