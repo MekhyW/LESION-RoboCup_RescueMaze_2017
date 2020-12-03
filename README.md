@@ -39,11 +39,5 @@ The development of Lesion, in partial collaboration with Santa Bartolomea Capita
 
 http://sistemaolimpo.org/midias/uploads/85ae23003a1def3842ece655af41f87c.pdf
 
-## Where to Find Me:
-
-* Email: felipe_catapano@yahoo.com.br
-* [Telegram Contact 🔵](https://t.me/mekhyw)
-* [Twitter Page 🐦](https://twitter.com/MekhyW)
-
 
 
